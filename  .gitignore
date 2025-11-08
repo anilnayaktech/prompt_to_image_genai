@@ -1,0 +1,33 @@
+# Python cache
+scripts/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+genai_env/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / Outputs
+data/samples/*
+!data/samples/.gitkeep
+
+# Models / caches
+*.ckpt
+*.pt
+*.pkl
+*.bin
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
