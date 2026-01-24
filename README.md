@@ -15,6 +15,7 @@ It also includes **prompt enhancement** using a lightweight LLM and **safe-conte
 ---
 
 ## 🧰 Project Structure
+...
 genai_prompt2image/
 │
 ├── app_streamlit.py # Streamlit frontend app
@@ -27,9 +28,7 @@ genai_prompt2image/
 │
 ├── requirements.txt # Python dependencies
 └── README.md # Documentation
-
-yaml
-Copy code
+...
 
 ---
 
