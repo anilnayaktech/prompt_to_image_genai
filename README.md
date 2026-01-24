@@ -1,7 +1,6 @@
 # 🎨 GenAI Prompt-to-Image Generator
 
-A simple **Generative AI web app** built with **Streamlit**, **Hugging Face Transformers**, and **Stable Diffusion**, where users can type any text prompt and generate beautiful AI art instantly.  
-It also includes **prompt enhancement** using a lightweight LLM and **safe-content filtering**.
+A simple **Generative AI web app** built with **Streamlit**, **Hugging Face Transformers**, and **Stable Diffusion**, where users can type any text prompt and generate beautiful AI art instantly.It also includes **prompt enhancement** using a lightweight LLM and **safe-content filtering**.
 
 ---
 
@@ -14,58 +13,58 @@ It also includes **prompt enhancement** using a lightweight LLM and **safe-conte
 
 ---
 
-## 🧰 Project Structure
-...
-genai_prompt2image/
-│
-├── app_streamlit.py # Streamlit frontend app
-├── scripts/
-│ ├── image_pipeline.py # Main text→image logic
-│ ├── safety.py # Prompt safety filtering
-│
-├── data/
-│ └── samples/ # Stores generated images
-│
-├── requirements.txt # Python dependencies
-└── README.md # Documentation
-...
+## 🚀 Live Demo
+Check out the deployed app here: [Prompt-to-Image Generator](https://akn-prompt-2-image-genai.streamlit.app/)
 
 ---
-
+## 🧰 Project Structure
+```text
+genai_prompt2image/
+│
+├── app_streamlit.py        # Streamlit frontend app
+├── scripts/
+│   ├── image_pipeline.py   # Main text→image logic
+│   ├── safety.py           # Prompt safety filtering
+│
+├── data/
+│   └── samples/            # Stores generated images
+│
+├── requirements.txt        # Python dependencies
+└── README.md               # Documentation
+```
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Create & Activate Virtual Environment
 ```bash
-python -m venv genai_env
+# Create Virtual Environment
+  python -m venv genai_env
 
 # Activate it:
-# On Windows:
-genai_env\Scripts\activate
-
-# On Mac/Linux:
-source genai_env/bin/activate
-2️⃣ Install Dependencies
-bash
-Copy code
+  # On Windows:
+    genai_env\Scripts\activate
+  # On Mac/Linux:
+    source genai_env/bin/activate
+```
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-3️⃣ Run the Streamlit App
-bash
-Copy code
+```
+### 3️⃣ Run the Streamlit App
+```bash
 streamlit run app_streamlit.py
-💡 Example Prompts
+```
+### 💡 Example Prompts
 Try these fun prompts:
-
+```bash
 "A fantasy castle above the clouds at sunset"
-
 "A futuristic robot painting a landscape"
-
-📂 Output
+```
+### 📂 Output
 Generated images will be automatically saved in:
-
-bash
-Copy code
+```bash
 data/samples/
-🧠 Tech Stack
+```
+### 🧠 Tech Stack
 Python
 
 Streamlit
@@ -76,14 +75,16 @@ Diffusers (Stable Diffusion)
 
 Torch
 
-👩‍💻 Author
+## 👩‍💻 Author
 Anil Kumar Nayak
+
 ✨ Software Developer | Python, AI & Streamlit Enthusiast
+
 📧 anilnayak.tech@gmail.com
 
-🏁 Future Enhancements
-Add multiple image styles (e.g., anime, photorealistic)
+### 🏁 Future Enhancements
+- Add multiple image styles (e.g., anime, photorealistic)
 
-Add download/share button
+- Add download/share button
 
-Integrate OpenAI API for higher-quality prompt generation
+- Integrate OpenAI API for higher-quality prompt generation
