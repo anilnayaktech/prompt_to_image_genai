@@ -14,7 +14,7 @@ from scripts.safety import is_safe_prompt  # safety check (create this small fil
 
 print("Initializing prompt refiner (Flan-T5-small)...")
 # Load a lightweight text2text model (for creative prompt enhancement)
-prompt_refiner = hf_pipeline("text2text-generation", model="google/flan-t5-small")
+prompt_refiner = hf_pipeline("text-generation", model="google/flan-t5-small")
 print("Prompt refiner loaded successfully.")
 
 def refine_prompt(user_prompt: str) -> str:
